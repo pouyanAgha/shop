@@ -16,3 +16,8 @@ export const createFetchClient = (
 
   return fetchClient;
 };
+
+export type FetchClient = (
+  url: string,
+  init?: RequestInit,
+) => Promise<Response>;
