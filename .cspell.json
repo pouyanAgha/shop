@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "version": "0.2",
+  "language": "en,fa",
+  "dictionaryDefinitions": [],
+  "dictionaries": [
+    "charity-en",
+    "charity-fa"
+  ],
+  "ignorePaths": [
+    "node_modules/",
+    "pnpm-lock.yaml",
+    "dist/",
+    "*.svg",
+    "*.tsbuildinfo",
+    "*.mp4",
+    ".*"
+  ],
+  "words": [
+    "Asus",
+    "pouyan",
+    "tshirt"
+  ]
+}
