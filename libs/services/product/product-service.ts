@@ -1,12 +1,12 @@
-import type { FetchClient } from '@libs/clients';
+import type { HttpClient } from '@libs/clients';
 
 export class ProductService {
   public constructor(
-    private readonly client: FetchClient,
+    private readonly client: HttpClient,
     private readonly basePath: string,
   ) {}
 
   public getAll() {
-    return this.client(this.basePath);
+    return this.client.get<any>(this.basePath);
   }
 }
